@@ -1,5 +1,9 @@
 var dependencies = [
-	'$filter', '$locale', '$scope', '$q', 'kiwiFormsFactory', 'KiwiFormField', 'KiwiInfoBox', 'kiwiRegexPatterns', 'kgDeviceService', 'pvConstants', 'kgConstants'
+	'$scope',
+	'$q',
+	'Filter',
+	'filterwidget',
+	'chartwidget'
 ];
 var i;
 
@@ -40,4 +44,10 @@ for (i = 0; i < dependencies.length; i++) {
 console.log('\t\t});');
 console.log('\t\t$rootScope.$digest();');
 console.log('\t}');
+console.log('');
+console.log("\tdescribe('initialization', function() {");
+console.log("\t\tit('should', function() {");
+console.log('\t\t\tinitializeController();');
+console.log('\t\t});');
+console.log('\t});');
 console.log('});');
