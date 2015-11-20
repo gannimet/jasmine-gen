@@ -1,10 +1,11 @@
+// CONFIGURATION
 var dependencies = [
-	'$scope',
-	'$q',
-	'Filter',
-	'filterwidget',
-	'chartwidget'
-];
+	'widget',
+	'appConditionService',
+	'settingsWidgetConfiguration'
+]
+// END CONFIGURATION
+
 var i;
 
 console.log("'use strict';");
