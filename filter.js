@@ -1,7 +1,7 @@
 // CONFIGURATION
-var filterName = 'haveEnergyManagement';
+var filterName = 'isSwitchable';
 var filterArguments = [
-	'energyManagement', 'guid'
+	'device'
 ];
 // END CONFIGURATION
 
@@ -28,7 +28,7 @@ output += "\tit('should', function() {\n";
 output += "\t\texpect(" + filterName + "(" + argsList(filterArguments) + ")).toEqual('hurz');\n";
 output += "\t});\n";
 
-output += "});\n";
+output += "});";
 
 console.log(output);
 

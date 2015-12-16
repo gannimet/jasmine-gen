@@ -1,8 +1,10 @@
 // CONFIGURATION
 var dependencies = [
-	'widget',
-	'appConditionService',
-	'settingsWidgetConfiguration'
+	'$scope',
+	'kgDeviceService',
+	'kgNodeService',
+	'kgConstants',
+	'heatpumpConstants'
 ]
 // END CONFIGURATION
 
